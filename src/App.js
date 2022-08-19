@@ -1,9 +1,17 @@
 import './App.css';
+import './index.css'
+import Parent from './components/Parent'
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      <header>
+        <h1 className="text-3xl font-bold underline">Welcome to My Stylesheet Playground</h1>
+      </header>
+      <main>
+        <Parent />
+      </main>
+      
     </div>
   );
 }

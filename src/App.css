@@ -1,5 +1,51 @@
-.App {
-  text-align: center;
+* {
+  height: 100vh;
+  width: 100vw;
+  
 }
 
+header {
+  text-align: center;
+  padding: 0 20px;
+  height: 60px;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.parent {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #444343;
+}
+
+h2 {
+  color: #fff;
+  font-size: 2rem;
+  text-align: center;
+  width: 100%;
+  
+}
+
+.child1, .child2 {
+  display: flex;
+  padding: 20px;
+  margin: 20px;
+  background-color: #f5f5f5;
+  border: 3px solid #827f7f;
+  width: 50%;
+  height: 70%;
+
+}
+
+.grand1, .grand2, .grand3, .grand4 {
+  justify-content: center;
+  align-items: center;
+  background-color: #121212;
+  color: #e5e5e5;
+  width: 40%;
+  height: 40%;
+  margin: 10px;
+  padding: 10px;
+}
 
